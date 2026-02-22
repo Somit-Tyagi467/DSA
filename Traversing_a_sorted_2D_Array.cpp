@@ -32,6 +32,7 @@ int main() {
         {3,6,9}
     };
     int target = 5;
+    printf("Is %d present in the matrix? ", target);
     cout << obj.searchMatrix(matrix, target);
 
     return 0;
